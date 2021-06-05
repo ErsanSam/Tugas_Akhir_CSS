@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+body{
+  background-image: url("web.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header{
+  text-align: center;
+  text-transform: uppercase;
+  background-color: darkblue;
+}
+
+.dua{
+  font-size: 60px;
+  color:lightblue;
+  font-weight: lighter;
+  font-family: cursive;
+}
+.nav-link{
+  text-transform: uppercase;
+  font-family: cursive;
+}
+.navbar{
+  background-color: darkblue;
+  padding: 10px 10px;
+}
+a:visited{
+  text-decoration: none;
+  color:white;
+}
+
+.tiga{
+  position: relative;
+  top:50px;
+  right:50px;
+	z-index: 1;
+  font-family: cursive;
+}
+.empat{
+  background-image: url("intro.png");
+  width:400px;
+  color:white;
+  position: relative;
+	z-index: 2;
+  top:-300px;
+  right:530px;
+}
+.judul{
+  background-color: lightblue;
+  color:darkblue;
+  font-weight: 700;
+  font-size: 20px;
+}
+.lima{
+  background-color: #333333;
+  text-align: center;
+  padding:10px;
+  color:white;
+}
